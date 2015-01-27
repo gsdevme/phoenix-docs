@@ -1,22 +1,29 @@
-.. Phoenix documentation master file, created by
-   sphinx-quickstart on Tue Jan 27 14:05:49 2015.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+Phoenix Documentation
+====================
 
-Welcome to Phoenix's documentation!
-===================================
+Phoenix is an e-commerce framework build using the `Symfony2 Framework`_.
 
-Contents:
+
+The Book
+--------
+
+* :doc:`/book/emails`
+
+
+API
+-------------
+
+
+Bundles
+-------
+
+Documentation of all Sylius bundles.
 
 .. toctree::
-   :maxdepth: 2
+   :hidden:
 
+   bundles/index
 
+.. include:: /bundles/map.rst.inc
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
+.. _`Symfony2 Framework`: http://symfony.com
