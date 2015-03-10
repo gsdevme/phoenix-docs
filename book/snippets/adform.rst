@@ -5,8 +5,8 @@ Adform
 
 This bundle allows configuration of Adform_ Tracking Snippets. In terms of structure and configurability, this bundle is a perfect example of how NOT to implement tracking snippets. Do not use this bundle as a reference for adding tracking snippets.
 
-## Register the Bundle
-
+Register the Bundle
+===================
 .. code-block:: php
 
     // app/AppKernel.php
@@ -19,8 +19,8 @@ This bundle allows configuration of Adform_ Tracking Snippets. In terms of struc
 	    );
 	}
 
-## Add configuration
-
+Add configuration
+=================
 This bundle does not use semantic configuration, but instead uses parameters to set up the snippets. The following parameters are required after registering this bundle:
 
 .. code-block:: yaml
@@ -39,13 +39,14 @@ This bundle does not use semantic configuration, but instead uses parameters to 
 	adform_enabled: false
 
 
-## Rendering Snippet
+Rendering Snippet
+=================
 
-To render snippets for this bundle, the following twig extension:
+To render snippets for this bundle, use the following twig extension:
 
 
 Homepage
---------
+~~~~~~~~
 .. code-block:: twig
 
     // app/Resources/views/home.html.twig
@@ -53,7 +54,7 @@ Homepage
     {{ phoenix_adform_snippet('homepage') }}
 
 Checkout Submit
---------
+~~~~~~~~~~~~~~~
 .. code-block:: twig
 
     // app/Resources/views/checkout_payment.html.twig

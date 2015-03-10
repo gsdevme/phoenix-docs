@@ -1,14 +1,10 @@
 Phoenix Documentation
 ====================
 
-Phoenix is an e-commerce framework build using the `Symfony2 Framework`_.
+Phoenix is an e-commerce framework build using the Symfony2 Framework
 
 
 The Book
 --------
 
--* :doc:`/book/snippets/index`
-
-API
--------------
-
+:doc:`/book/snippets/index`
