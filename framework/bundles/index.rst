@@ -109,6 +109,7 @@ Courier
 CreditCardBundle
 ~~~~~~~~~~~~~~~~
 .. error:: CANDIDATE FOR DELETION/CONVERSION TO COMPONENT
+
   - This Models a credit card
   - Has a form definition (used in checkout? If so could be moved to payment bundle or checkout bundle)
   - Some aspects of this bundle could be moved to a component
@@ -125,6 +126,7 @@ CustomerBundle
 DashboardBundle
 ~~~~~~~~~~~~~~~
 .. error:: CANDIDATE FOR DELETION/CONVERSION TO COMPONENT
+
   - Components and configuration for dashboard widgets
   - Could be merged with AdminBundle or more correctly integrated
   - Scope for code to be converted to components
@@ -132,6 +134,7 @@ DashboardBundle
 DotMailerBundle
 ~~~~~~~~~~~~~~~
 .. error:: SHOULD BE MADE A THIRD PARTY BUNDLE OR AN ADAPTER IN THE SUBSCRIBERBUNDLE
+  
   - Provides integration of 'subscribers', 'customers' to dotmailer
 
 EmailBundle
@@ -143,17 +146,20 @@ EmailBundle
 EventBundle
 ~~~~~~~~~~~
 .. error:: CANDIDATE FOR DELETION/MOVING OF FUNCTIONALITY TO ANOTHER BUNDLE
+  
   - This bundle has no well defined scope and should be merged with another bundle
 
 FacebookOpenGraphBundle
 ~~~~~~~~~~~~~~~~~~~~~~~
 .. error:: CANDIDATE FOR MOVEMENT TO THIRD PARTY/CONVERSION TO COMPONENT
+  
   - This would make a good candidate for a component
   - The D/I configuration should be moved from core to a third party bundle
 
 FeatureBundle
 ~~~~~~~~~~~~~
 .. error:: CANDIDATE FOR DELETION/MOVING OF FUNCTIONALITY TO ANOTHER BUNDLE
+  
   - This bundle provides an extension allowing the system to check if a feature is enabled.
   - Idea is that other bundles register themselves as a feature which can then tested against before being used
   - This may not be necessary and could possibly be achieved by compiler passes
@@ -161,12 +167,14 @@ FeatureBundle
 FeefoBundle
 ~~~~~~~~~~~
 .. error:: CANDIDATE FOR MOVEMENT TO THIRD PARTY BUNDLE
+  
   - Provides integration with Feefo (a third party product review provider)
   - Sends information to feefo when a package is shipped (which triggers an email to the customer to review the product)
 
 FormFlowExtensionBundle
 ~~~~~~~~~~~~~~~~~~~~~~~
 .. error:: CANDIATE FOR MERGE INTO CHECKOUT BUNDLE
+  
   - Extends the form flow bundle
   - Used in checkout
 
@@ -183,10 +191,10 @@ GeocodeBundle
   - Relies on component: http://geocoder-php.org/
   - The above should be market as core component dependency
 
-
 GiftCardBundle
 ~~~~~~~~~~~~~~
 .. error:: CANDIDATE FOR DELETION/MOVING OF FUNCTIONALITY TO ANOTHER BUNDLE (Payment/Checkout)
+  
   - Implementation of ProductReference
   - Majority of functionality now provided by ClothingProductBundle
   - Hooks in to Checkout/Payment to provide ability to pay by credit card
@@ -194,6 +202,7 @@ GiftCardBundle
 H5BPBundle
 ~~~~~~~~~~
 .. error:: CANDIDATE FOR DELETION
+  
   - Provides configuration of Html5Boilerplate
   - Similar functionality to https://github.com/Oryzone/OryzoneBoilerplateBundle
   - Candidate to open source or convert sites to using above existing community bundle
@@ -202,6 +211,7 @@ H5BPBundle
 InvoiceBundle
 ~~~~~~~~~~~~~
 .. error:: CANDIDATE FOR DELETION
+  
   - Provides ability to configure invoices (templates) for use in admin area
   - Generation of PDF documents related to shipping and order invoices
   - Linked to Courier/Order Bundle
@@ -210,6 +220,7 @@ InvoiceBundle
 MailChimpBundle
 ~~~~~~~~~~~~~~~
 .. error:: SHOULD BE MADE A THIRD PARTY BUNDLE OR AN ADAPTER IN THE SUBSCRIBERBUNDLE
+  
   - Provides integration of 'subscribers', 'customers' to mailchimp
 
 MarkdownEditingBundle
@@ -235,6 +246,7 @@ MoneyBundle
 MonitoringBundle
 ~~~~~~~~~~~~~~~~
 .. error:: CANDIDATE FOR DELETION/CONVERSION TO COMPONENT
+  
   - Sends email (notifications) on system events
   - Could be converted to component if it offers some functionality not already provided elsewhere
   - Used by only one function currently (Order bundle notifies that there have been no orders in the last period of time - suggest this function could be moved to order bundle using anything in this bundle via a component)
@@ -242,6 +254,7 @@ MonitoringBundle
 MutexBundle
 ~~~~~~~~~~~
 .. error:: CANDIDATE FOR DELETION/CONVERSION TO COMPONENT
+  
   - Provides a disk based Mutex system which is used by some other bundles
   - Should be converted to component and eventually phased out (disk based mutex not that useful for our infrastructure)
 
@@ -306,6 +319,7 @@ ProductCatalogBundle
 ProductImportBundle
 ~~~~~~~~~~~~~~~~~~~
 .. error:: CANDIDATE FOR DELETION/CONVERSION TO COMPONENT & MOVING FUNCTIONALITY TO OTHER BUNDLES
+  
   - Base classes for ETL type Importing operations
   - Overly complicated with no documentation
   - This will soon not be required by any client - suggest we remove this at that time.
@@ -323,6 +337,7 @@ ProductPromotionBundle
 RedisBundle
 ~~~~~~~~~~~
 .. error:: CANDIDATE FOR DELETION/MOVE FUNCTIONALITY TO OTHER BUNDLES
+  
   - Sets up and configures cache spaces in Redis (Move to Cache Bundle)
   - Setup of Redis for caching doctrine results (Can we use the now native Doctrine functionality to do this instead)
   - Commands for flushing redis caches (Move to Cache Bundle)
@@ -339,6 +354,7 @@ ReportingBundle
 ShopBundle
 ~~~~~~~~~~
 .. error::  CANDIDATE FOR DELETION/MOVE FUNCTIONALITY TO ANOTHER BUNDLE (this is a weak recommendation and needs discussion)
+  
   - Allows configuration of templates being used on frontend of the site
   - Market based configuration of customer services information (contact details for customer services)
   - This isn't necessary?
@@ -355,6 +371,7 @@ SitemapBundle
 StatsBundle
 ~~~~~~~~~~~
 .. error::  CANDIDATE FOR DELETION
+  
   - Sends stats to third party StatsD service
   - Not Used
   - CANDIDATE FOR DELETION
@@ -375,6 +392,7 @@ SubscriptionsBundle
 SymfonyConfigurationBundle
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 .. error::  CANDIDATE FOR DELETION/MOVE FUNCTIONALITY TO ANOTHER BUNDLE
+  
   - Has one function currently (flushing doctrine cache before console clear), to avoid errors during deployment
 
 TaxBundle
@@ -393,6 +411,7 @@ Tracking
 TwigProfilerBundle
 ~~~~~~~~~~~~~~~~~~
 .. error::  CANDIDATE FOR DELETION
+  
   - Forward compatibility of symfony 2.7 twig profiling in later versions
   - Can be removed when system dependency bumped to symfony 2.7
 
