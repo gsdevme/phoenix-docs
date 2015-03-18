@@ -13,6 +13,7 @@ Current
 Phoenix Components
 ~~~~~~~~~~~~~~~~~~
 - File
+- Market (migration in progress)
 - Money
 
 Third Party Components
@@ -25,7 +26,6 @@ These are candidate components and will be documented after being abstracted fro
 
 - Pricing (from ProductBundle)
 - Tax (from ProductBundle)
-- Market (from MarketBundle)
 - Cache (from CacheBundle)
 - Stock (from ProductBundle)
 - CreditCard (from CreditCardBundle)
