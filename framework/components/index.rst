@@ -13,6 +13,7 @@ Current
 Phoenix Components
 ~~~~~~~~~~~~~~~~~~
 - File
+- Money
 
 Third Party Components
 ~~~~~~~~~~~~~~~~~~~~~
@@ -22,7 +23,6 @@ Candidates
 ----------
 These are candidate components and will be documented after being abstracted from system code:
 
-- Money (from MoneyBundle)
 - Pricing (from ProductBundle)
 - Tax (from ProductBundle)
 - Market (from MarketBundle)

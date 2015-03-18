@@ -37,10 +37,6 @@ AdminUserBundle
 - Can impersonate a customer
 - CRUD admin users in backend
 
-AssemblaBundle
-~~~~~~~~~~~~~~
-.. error:: DELETE THIS
-
 CacheBundle
 ~~~~~~~~~~~
 - Ability to define caches via configuration
@@ -239,7 +235,7 @@ MarketBundle
 
 MoneyBundle
 ~~~~~~~~~~~
-- Majority of code to be moved to component
+- Majority of code to be moved to component (DONE)
 - Remaining code will configure this component and provide services for use in other bundles
 - A core concept and important core bundle
 
