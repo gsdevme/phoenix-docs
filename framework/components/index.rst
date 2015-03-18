@@ -28,7 +28,7 @@ These are candidate components and will be documented after being abstracted fro
 - Market (from MarketBundle)
 - Cache (from CacheBundle)
 - Stock (from ProductBundle)
-- CreditCart (from CreditCartBundle)
+- CreditCard (from CreditCardBundle)
 - Subscription (from SubscriptionBundle)
 - Article (from ClothingProductBundle)
 - Order (from OrderBundle)
