@@ -1,5 +1,7 @@
-'Tracking' Snippets, Third Party Javascript & Google Tag Manager
-----------------------------------------------------------------
+.. _phoenix-bundle-tracking-index:
+
+PhoenixTrackingBundle
+---------------------
 
 The `PhoenixTrackingBundle` provides a mechanism for inserting third party javascript snippets into templates. Snippets allow:
 
@@ -13,7 +15,7 @@ Current Implementations
 ===============
 The following snippets already have implementations and can be used out of the box, providing you implement the correct contexts in your templates. Each implementation has its own configuration reference:
 
-- :ref:`phoenix-snippet-adform`	
+- :ref:`phoenix-tracking-snippet-adform`	
 - Affiliate Window
 - Chango
 - CrazyEgg

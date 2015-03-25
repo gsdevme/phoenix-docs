@@ -1,3 +1,5 @@
+.. _phoenix-contributing-roadmap:
+
 Roadmap
 =======
 
@@ -12,8 +14,8 @@ The current focus in Phoenix is refactoring code to prepare for a 1.0 release. I
 - Refactored (to Model and Component Layers)
 - Deleted
 
-Components and bundles considered to have met the goals of the :ref:`coding-standards` document will be tagged as being suitable for 1.0.
-
+Components and bundles considered to have met the goals of the :ref:`phoenix-contributing-coding-standards` document will be tagged as being suitable for 1.0.
+:ref:`A guide to current bundle refactoring can be seen here<phoenix-bundles-index>`
 
 Pre 1.0:
 --------

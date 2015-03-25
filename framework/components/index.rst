@@ -1,32 +1,30 @@
+.. _phoenix-component-index:
+
 Components
 ==========
 
-The following components are provided. These components are heavily used within Phoenix, and their behavior (where appropriate) can altered via configuration within bundles(?).
+The following components are provided. These components are heavily used within Phoenix, and their behavior (where appropriate) can altered via configuration within :ref:`bundles<phoenix-bundles-index>`.
 
 For code to be moved to a component it must:
 - Have a well defined scope
 - Model something useful outside the scope of the Phoenix application
-- Have an acceptable level of - :ref:`code quality <phoenix-coding-standards>`.
+- Have an acceptable level of - :ref:`code quality <phoenix-contributing-coding-standards>`.
 
-.. important:: Components marked with this note are considered good for 1.0 release
-
-Current
--------
-
-Phoenix Components
-~~~~~~~~~~~~~~~~~~
+Current Phoenix Components
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 - Access
 - File
 - Market (migration in progress)
 - Money
+- Tracking (requires refactoring evaluation)
 
-Third Party Components
-~~~~~~~~~~~~~~~~~~~~~
+Current Third Party Components
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - Markup/Addressing
 
-Candidates
-----------
-These are candidate components and will be documented after being abstracted from system code:
+Candidates Components
+---------------------
+These are candidate components and will be documented after being abstracted from bundle code:
 
 - Pricing (from ProductBundle)
 - Tax (from ProductBundle)
@@ -39,9 +37,8 @@ These are candidate components and will be documented after being abstracted fro
 
 
 Removal Candidates
-----------
-These are currently components and are candidates for removal (should be moved to bundles where they are used)
+------------------
+These are currently components and are candidates for removal (should be moved to bundles where they are used?)
 
 - Distribution
 - DomainAwareKernel
-- Tracking

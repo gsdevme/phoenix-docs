@@ -1,30 +1,25 @@
 Phoenix Documentation
 ====================
 
-Phoenix is an e-commerce framework build using the Symfony2 Framework
-
-The Framework
---------
-The Phoenix framework is a common collection of components an ecommerce domain model, and a series of patterns designed to help building ecommerce applications. 
+Phoenix is an e-commerce framework build using the Symfony2 Framework providing a common collection of components an ecommerce domain model, and a series of patterns designed to help build scalable, multi-market, multi-installation, internationalized ecommerce applications. 
 
 Components
 ~~~~~~~~~~
-:doc:`/framework/components/index`
+:ref:`The Component documentation<phoenix-component-index>` describes the components used in Phoenix.
 
 Model
 ~~~~~
-:doc:`/framework/model/index`
+:ref:`The Model documentation<phoenix-model-index>` describes the model layer of Phoenix, including how to alter the model via commands.
 
 Bundles
 ~~~~~~~
-:doc:`/framework/bundles/index`
+:ref:`The Model documentation<phoenix-bundles-index>` describes the bundles used in Phoenix.
 
-The Book
---------
-Built on top of the Phoenix framework are a series of bundles, which allow the ecommerce application to be configured on a per client/installation/market basis.
-
-:doc:`/book/snippets/index`
+Contributing
+~~~~~~~~~~~~
+:ref:`The Roadmap documentation<phoenix-contributing-roadmap>` outline the current state of development, and priorities of the Phoenix team.
+:ref:`The Coding Standards documentation<phoenix-contributing-coding-standards>` outlines the coding standards of the project and agreed best practices on contributing code.
 
 The API
--------
-coming soon
+~~~~~~~
+@wip

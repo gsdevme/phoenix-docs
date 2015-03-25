@@ -1,4 +1,4 @@
-.. _phoenix-snippet-adform:
+.. _phoenix-tracking-snippet-adform:
 
 Adform
 ------
