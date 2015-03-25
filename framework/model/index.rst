@@ -12,15 +12,15 @@ The Phoenix components are shared resources of the model layer.
 The Command/Handler Pattern
 ---------------------------
 
-Actions in Phoenix should be taken using the command bus which is an implementation of the Message Pattern. This mechanism is driven by the `Simplebus Libraries <https://github.com/SimpleBus/>`.
+Actions in Phoenix should be taken using the command bus which is an implementation of the Message Pattern. This mechanism is driven by the `Simplebus Libraries <https://github.com/SimpleBus/>`_.
 
 .. seealso::
-	The concepts used here, and the advantages and disadvantages are `discussed by the Author of Simplebus on his blog <http://php-and-symfony.matthiasnoback.nl/2015/01/some-questions-about-the-command-bus/>`.
+	The concepts used here, and the advantages and disadvantages are `discussed by the Author of Simplebus on his blog <http://php-and-symfony.matthiasnoback.nl/2015/01/some-questions-about-the-command-bus/>`_.
 
 
 Commands
 --------
-Commands represent an instruction to alter the model. All actions that require a change to system state - or to 'do' something must be modelled via commands. Commands extend the MessageInterface and are sent to the 'CommandBus' to be handled. You can see the anatomy of a a command by checking the contents of 'Phoenix/Model/*/Command'.
+Commands represent an instruction to alter the model. All actions that require a change to system state, or to 'do' something must be modelled via commands. Commands extend the MessageInterface and are sent to the 'CommandBus' to be handled. You can see the anatomy of a command by checking the contents of 'Phoenix/Model/*/Command'.
 
 :ref:`Command Documentation <phoenix-model-commands>`
 
