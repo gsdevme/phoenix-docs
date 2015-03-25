@@ -13,7 +13,7 @@ Model
 
 Bundles
 ~~~~~~~
-:ref:`The Model documentation<phoenix-bundles-index>` describes the bundles used in Phoenix.
+:ref:`The Bundle documentation<phoenix-bundles-index>` describes the bundles used in Phoenix.
 
 Contributing
 ~~~~~~~~~~~~
