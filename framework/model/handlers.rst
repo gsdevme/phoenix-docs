@@ -1,7 +1,8 @@
 .. _phoenix-model-handlers:
 
+########
 Handlers
-========
+########
 
 Writing a command handler
 -------------------------

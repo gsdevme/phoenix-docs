@@ -1,7 +1,8 @@
 .. _phoenix-model-index:
 
+#####
 Model
-=====
+#####
 
 The Model folder contains the domain model of the application and holds base classes which are given persistence by entities configured in the 'core' system bundles.
 This folder also contains repository interfaces that describe how the model is accessed. Additionally all instructions to modify the model (making system state changes) take place using commands (instructions) sent to handlers(that perform the instructions) defined in this folder.

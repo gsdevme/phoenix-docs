@@ -1,7 +1,8 @@
 .. _phoenix-model-commands:
 
+########
 Commands
-========
+########
 
 This is an example of a command to 'Launch a Missile'. The command must implement 'Commmand/LaunchMissileInterface';
 
