@@ -33,8 +33,9 @@ The `Command Bus` is responsible for handling all commands registered in the sys
 .. code-block:: php
     
     // ButtonController.php
-    use Symfony\Bundle\FrameworkBundle\Controller\Controller;
     <?php
+    
+    use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
     class LaunchController extends Controller
     {
