@@ -20,19 +20,14 @@ Actions in Phoenix should be taken using the command bus which is an implementat
 
 Commands
 --------
-Commands represent an instruction to alter the model. All actions that require a change to system state, or to 'do' something must be modelled via commands. Commands extend the MessageInterface and are sent to the 'CommandBus' to be handled. You can see the anatomy of a command by checking the contents of 'Phoenix/Model/*/Command'.
-
-:ref:`Command Documentation <phoenix-model-commands>`
+Commands represent an instruction to alter the model. All actions that require a change to system state, or to 'do' something must be modeled via commands. Commands extend the MessageInterface and are sent to the 'CommandBus' to be handled. You can see the anatomy of currently modeled commands by checking the contents of 'Phoenix/Model/*/Command'. Read the :ref:`Command Documentation <phoenix-model-commands>` to learn more on the structure of commands.
 
 Handlers
 --------
-Handlers take command classes and perform system actions based on the contents of the command. Handlers are excecuted via the 'Command Bus' either synchronously (immediately) or asynchronously (via a system such as rabbitMQ, Beanstalkd or ironMQ).
-
-:ref:`Handler Documentation <phoenix-model-handlers>`
+Handlers take command classes and perform system actions based on the contents of the command. Handlers are executed via the 'Command Bus' either synchronously (immediately) or asynchronously (via a system such as rabbitMQ, Beanstalkd or ironMQ). Read the :ref:`Handler Documentation <phoenix-model-handlers>` to learn more on how to declare a handler.
 
 Command Bus
 -----------
-
 The `Command Bus` is responsible for handling all commands registered in the system. This service should be accessed wherever you create a command that needs to be executed:
 
 .. code-block:: php
@@ -57,4 +52,4 @@ Refactoring 'Phoenix Job Queue' Commands to use the Command Bus
 
 What to watch out for when using the Command Bus
 ------------------------------------------------
-- @todo Discuss implications of Commandbus not being able to give a return value.
+- @todo Discuss implications of CommandBus not being able to give a return value.
