@@ -14,4 +14,4 @@ The Phoenix Access Bundle provides the mechanism which is used to control access
 
 TrackingBundle
 ==============
-The Phoenix Tracking Bundle provides an easy way to add third party javascript and tracking snippets to instances of Phoenix (also GogleTag Manager). These snippets are configurable and can be enabled on a per instance basis. :ref:`Read the TrackingBundle Documentation <phoenix-bundle-tracking-index>`.
+The Phoenix Tracking Bundle provides an easy way to add third party javascript and tracking snippets to instances of Phoenix (also Google Tag Manager). These snippets are configurable and can be enabled on a per instance basis. :ref:`Read the TrackingBundle Documentation <phoenix-bundle-tracking-index>`.
