@@ -13,7 +13,10 @@ Service Naming Conventions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 	- Class names should be used in service declerations directly, without a parameter
 	- Service names should follow the format
-		{bundle}.{underscore_seperated_folders}.{class}. e.g The file /ZooBundle/Keeper/LionKeeper would be named 'zoo.keeper.lion'
+		{bundle}.{underscore_seperated_folders}.{class}
+
+		e.g The file /ZooBundle/Keeper/LionKeeper would be named:
+		'zoo.keeper.lion'
 
 License
 ^^^^^^^
