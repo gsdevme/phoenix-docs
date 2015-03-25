@@ -1,6 +1,7 @@
 .. _phoenix-bundles-index:
+#######
 Bundles
-=======
+#######
 
 Phoenix Bundles configure the 'Phoenix/Component' and 'Phoenix/Model' layers for use in Phoenix.
 
@@ -8,9 +9,9 @@ Phoenix Bundles configure the 'Phoenix/Component' and 'Phoenix/Model' layers for
 
 
 AccessBundle
-~~~~~~~~~~~~
+============
 The Phoenix Access Bundle provides the mechanism which is used to control access to functions within Phoenix. :ref:`Read the AccessBundle Documentation <phoenix-bundle-access-index>`.
 
 TrackingBundle
-~~~~~~~~~~~~
+==============
 The Phoenix Tracking Bundle provides an easy way to add third party javascript and tracking snippets to instances of Phoenix (also GogleTag Manager). These snippets are configurable and can be enabled on a per instance basis. :ref:`Read the TrackingBundle Documentation <phoenix-bundle-tracking-index>`.

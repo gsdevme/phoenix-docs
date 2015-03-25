@@ -20,7 +20,7 @@ Actions in Phoenix should be taken using the command bus which is an implementat
 
 Commands
 --------
-Commands represent an instruction to alter the model. All actions that require a change to system state, or to 'do' something must be modeled via commands. Commands extend the MessageInterface and are sent to the 'CommandBus' to be handled. You can see the anatomy of currently modeled commands by checking the contents of 'Phoenix/Model/*/Command'. Read the :ref:`Command Documentation <phoenix-model-commands>` to learn more on the structure of commands.
+Commands represent an instruction to alter the model. All actions that require a change to system state, or to 'do' something must be modeled via commands. Commands extend the MessageInterface and are sent to the 'CommandBus' to be handled. You can see the anatomy of currently modeled commands by checking the contents of 'Phoenix/Model'. Read the :ref:`Command Documentation <phoenix-model-commands>` to learn more on the structure of commands.
 
 Handlers
 --------
@@ -34,7 +34,7 @@ The `Command Bus` is responsible for handling all commands registered in the sys
     
     // ButtonController.php
     <?php
-    
+
     use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
     class LaunchController extends Controller
