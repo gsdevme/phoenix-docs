@@ -9,10 +9,16 @@ section should just have links to the bundles explaining what areas of concern t
 
 .. error:: Error blocks denote bundles which are currently are target for deletion after refactoring are marked with this note
 
-.. important:: Core bundles provide configuration to the Model layer of the application are markets with this note
+.. important:: Bundles marked with this note are considered good for 1.0 release
 
 Existing Bundles
 ----------------
+
+AccessBundle
+~~~~~~~~~~~~
+- Configures the Access Component.
+- Core Bundle
+- :ref:`Docs <phoenix-bundle-access-index>`.
 
 AddressingBundle
 ~~~~~~~~~~~~~~~~
@@ -266,7 +272,6 @@ OrderBundle
 - Picking batches for use in fulfillment (this should be abstracted to WMStype bundle)
 - RMA Management
 - Sends emails (lots of them) around fulfillment. Should be moved to email bundle
-- Provides 'OrderSecurity' Layer, which needs to be abstracted. This service is used extensively to control user access, and control which functionality should be available based on system modeled on Symfony Security (e.g voters and strategies)
 
 OrderSecurityReviewBundle
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -374,8 +379,8 @@ StatsBundle
 
 StoreDirectoryBundle
 ~~~~~~~~~~~~~~~~~~~~
-  - Models a store directory
-  - Stores are used in checkout (Click and Collect) and information pages (store opening hours)
+- Models a store directory
+- Stores are used in checkout (Click and Collect) and information pages (store opening hours)
   
 SubscriptionsBundle
 ~~~~~~~~~~~~~~~~~~~
@@ -389,13 +394,13 @@ SymfonyConfigurationBundle
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 .. error::  CANDIDATE FOR DELETION/MOVE FUNCTIONALITY TO ANOTHER BUNDLE
   
-  - Has one function currently (flushing doctrine cache before console clear), to avoid errors during deployment
+ - Has one function currently (flushing doctrine cache before console clear), to avoid errors during deployment
 
 TaxBundle
 ~~~~~~~~~
-  - Models calculation of tax information
-  - Tax information can be modeled simply in Phoenix, more complicated modeling (e.g US tax) can be provided by third party systems
-  - Tax information from Product Bundle should be moved to a component and used by this bundle
+- Models calculation of tax information
+- Tax information can be modeled simply in Phoenix, more complicated modeling (e.g US tax) can be provided by third party systems
+- Tax information from Product Bundle should be moved to a component and used by this bundle
 
 Tracking
 ~~~~~~~~

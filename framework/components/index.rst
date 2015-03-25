@@ -6,12 +6,16 @@ The following components are provided. These components are heavily used within 
 For code to be moved to a component it must:
 - Have a well defined scope
 - Model something useful outside the scope of the Phoenix application
+- Have an acceptable level of - :ref:`code quality <phoenix-coding-standards>`.
+
+.. important:: Components marked with this note are considered good for 1.0 release
 
 Current
 -------
 
 Phoenix Components
 ~~~~~~~~~~~~~~~~~~
+- Access
 - File
 - Market (migration in progress)
 - Money
