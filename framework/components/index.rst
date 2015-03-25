@@ -6,9 +6,10 @@ Components
 The following components are provided. These components are heavily used within Phoenix, and their behavior (where appropriate) can altered via configuration within :ref:`bundles<phoenix-bundles-index>`.
 
 For code to be moved to a component it must:
+
 - Have a well defined scope
 - Model something useful outside the scope of the Phoenix application
-- Have an acceptable level of - :ref:`code quality <phoenix-contributing-coding-standards>`.
+- Have an acceptable level of :ref:`code quality <phoenix-contributing-coding-standards>`.
 
 Current Phoenix Components
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
