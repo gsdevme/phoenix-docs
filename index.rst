@@ -3,6 +3,10 @@ Phoenix Documentation
 
 Phoenix is an e-commerce framework build using the Symfony2 Framework providing a common collection of components an ecommerce domain model, and a series of patterns designed to help build scalable, multi-market, multi-installation, internationalized ecommerce applications. 
 
+Installation Guide
+~~~~~~~~~~~~~~~~~~
+@wip
+
 Components
 ~~~~~~~~~~
 :ref:`The Component documentation<phoenix-component-index>` describes the components used in Phoenix.
