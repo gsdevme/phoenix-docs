@@ -172,7 +172,7 @@ This voter does a job - but it's not very flexible, it would be better if we cou
 	    }
 	}
 
-Finally - what if this voter didn't need to vote on the basis of the *current* day of the week, but on the basis of when something else happened. In that instance we would need to provide the value of that 'day' to this voter in order for it to make a decision. If your voter requires a parameter like this, it reduces the situations in which it can be used significantly, because the parameter needs to be provided to the subject at the time the access decision is being made. Unfortuantely this introduces a strong coupling between the voter and subjects on which it can vote on. However this pattern is often used without issue, you just need to be mindful of the consequenses when you interoduce it.
+Finally - what if this voter didn't need to vote on the basis of the *current* day of the week, but on the basis of when something else happened. In that instance we would need to provide the value of that 'day' to this voter in order for it to make a decision. If your voter requires a parameter like this, it reduces the situations in which it can be used significantly, because the parameter needs to be provided to the subject at the time the access decision is being made. Unfortuantely this introduces a strong coupling between the voter and subjects on which it can vote on. However this pattern is often used without issue, you just need to be mindful of the consequenses when you introduce it.
 
 From the above code - we now look at the 'supportsParams' and 'vote' methods. The 'supportsParams' method will be run against the parameters provided at the time the access decision is made, eg if the access decision manager is called like this:
 
