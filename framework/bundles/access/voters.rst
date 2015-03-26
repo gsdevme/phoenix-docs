@@ -84,6 +84,7 @@ Voters must implement VoterInterface. Here is our first pass of the voter - voti
 	}
 
 This voter does a job - but it's not very flexible, it would be better if we could allow it to be configured directly to adjust which day of the week we are checking for. We can do this by using the getParams and setParams methods. 
+
 .. warning:: Parameter index is important because this simplifies the configuration of voters in the yaml file later on.
 
 .. code-block:: php
