@@ -11,7 +11,7 @@ Exceptions
 ==========
 Service Naming Conventions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
-	- Class names should be used in service declerations directly, without a parameter
+	- Class names should be used in service declarations directly, without a parameter
 	- Service names should follow the format
 		{bundle}.{underscore_seperated_folders}.{class}
 
