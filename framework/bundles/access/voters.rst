@@ -95,9 +95,9 @@ This voter does a job - but it's not very flexible, it would be better if we cou
 
 	class DayOfWeekVoter implements VoterInterface
 	{
-		/**
-		 * @param  {String} $dayOfWeek A valid value for the 'l' value of date(), e.g 'monday', 'tuesday', 'sunday' et.c
-		 */
+	  /**
+	   * @param  {String} $dayOfWeek A valid value for the 'l' value of date(), e.g 'monday', 'tuesday', 'sunday' et.c
+	   */
 	    public function __construct(
 	    	$dayOfWeek = 'monday'
 	    ) {
