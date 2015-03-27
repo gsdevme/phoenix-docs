@@ -7,6 +7,12 @@ Phoenix code should adhere (with a few exceptions) to the `Symfony Coding Standa
 
 .. warning:: Much of the code in Phoenix does not hold to these standards, but new code being contributed will be. If you see code that needs attention please look to refactor the bundle first before making a PR to fix coding standard issues. See :ref:`The Phoenix Bundle Refactoring Guide<phoenix-bundles-refactoring-guide>` for more
 
+
+These issues can be automatically addresses by the php-cs-fixer. You should configure your Editor/IDE to automatically fix these issues as you work using this tool.
+
+`Sublime Text <https://github.com/benmatselby/sublime-phpcs>`_
+` PHPStorm <http://arnolog.net/post/92715936483/use-fabpots-php-cs-fixer-tool-in-phpstorm-in-2>`_
+
 Exceptions
 ==========
 Service Naming Conventions
