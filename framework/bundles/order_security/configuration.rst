@@ -13,8 +13,8 @@ For example the following configuration will enable the rules 'your_cool_rule' a
     phoenix_order_security_review:
         strategy: unanimous
         rules:
-            - name: cybersource_decision_manager
             - name: your_cool_rule
+            - name: order_max_value
               config: {'value' : 250}
 
 
