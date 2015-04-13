@@ -1,12 +1,12 @@
 .. _phoenix-bundle-order-security-review-rules:
 
-#####
-Rules
-#####
+###########################
+Order Security Review Rules
+###########################
 
 It is simple to create your own security rule.
 
-Rules must implement \Phoenix\Bundle\OrderSecurityReviewBundle\Model\RuleInterface. The name you pick for the security rule (via the 'getName' method) will be used in configuration when enabling the rule.
+Rules must implement \\Phoenix\\Bundle\\OrderSecurityReviewBundle\\Model\\RuleInterface. The name you pick for the security rule (via the 'getName' method) will be used in configuration when enabling the rule.
 
 Additionally you can also implement one or more of the following interfaces:
 

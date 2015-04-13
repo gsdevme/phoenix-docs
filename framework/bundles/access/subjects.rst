@@ -1,7 +1,7 @@
 .. _phoenix-bundle-access-subjects:
-
+########
 Subjects
-========
+########
 
 Generally subjects are simple questions that need an answer. 'can I do X (on a Y)', where X is a verb and Y is a noun.
 To define a subject, you can specify it via a tagged service definition. The majority of the time a subject can follow the standard pattern, indeed all of the build in subjects use this pattern by extending the 'Generic' security subject, where the first (and only required) argument is the name of the subject we want to define.

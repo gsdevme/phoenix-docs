@@ -1,7 +1,7 @@
 .. _phoenix-bundle-access-index:
-
+############
 AccessBundle
-------------
+############
 
 The AccessBundle configures the Access Component for use in Phoenix.
 

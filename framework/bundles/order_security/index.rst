@@ -1,7 +1,6 @@
 .. _phoenix-bundle-order-security-review-index:
-
 #########################
-OrderSecurityReviewBundle
+OrderSecurityReview Bundle
 #########################
 
 The OrderSecurityBundle provides a framework for defining and configuring rules which trigger the 'security review' status for an order.

@@ -1,7 +1,7 @@
 .. _phoenix-bundle-access-voters:
-
+######
 Voters
-======
+######
 
 We will write a simple voter that votes on the basis of the current day of the week.
 

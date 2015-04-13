@@ -1,7 +1,7 @@
 .. _phoenix-bundle-access-configuration:
-
+#############
 Configuration
-=============
+#############
 
 Once you have set up your :ref:`Subjects <phoenix-bundle-access-subjects>` and :ref:`Voters <phoenix-bundle-access-voters>` you can configure them within your application.
 

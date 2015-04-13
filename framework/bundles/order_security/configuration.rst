@@ -1,5 +1,4 @@
 .. _phoenix-bundle-order-security-review-configuration:
-
 #############
 Configuration
 #############
@@ -19,4 +18,4 @@ For example the following configuration will enable the rules 'your_cool_rule' a
               config: {'value' : 250}
 
 
-You can also configure your rule directly via the configuration for your bundle if required. As long as your security rule has been tagged correctly it will be picked up and registered. Hiowever it will not be enabled unless the 'enableRule' method has been called in the Security Review Service. This happens automatically if you configure your rule via the 'phoenix_order_secuerity_review' configuration tree. See /Phoenix/Bundle/OrderSecurityReviewBundle/DependencyInjection/PhoenixOrderSecurityReviewExtension for more.
+You can also configure your rule directly via the configuration for your bundle if required. As long as your security rule has been tagged correctly it will be picked up and registered. Hiowever it will not be enabled unless the 'enableRule' method has been called in the Security Review Service. This happens automatically if you configure your rule via the 'phoenix_order_secuerity_review' configuration tree. See \\Phoenix\\Bundle\\OrderSecurityReviewBundle\\DependencyInjection\\PhoenixOrderSecurityReviewExtension for more.
