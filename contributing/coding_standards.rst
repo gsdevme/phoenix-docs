@@ -11,7 +11,7 @@ Phoenix code should adhere (with a few exceptions) to the `Symfony Coding Standa
 These issues can be automatically addresses by the php-cs-fixer. You should configure your Editor/IDE to automatically fix these issues as you work using this tool.
 
 `Sublime Text <https://github.com/benmatselby/sublime-phpcs>`_
-` PHPStorm <http://arnolog.net/post/92715936483/use-fabpots-php-cs-fixer-tool-in-phpstorm-in-2>`_
+`PHPStorm <http://arnolog.net/post/92715936483/use-fabpots-php-cs-fixer-tool-in-phpstorm-in-2>`_
 
 Exceptions
 ==========
@@ -47,13 +47,13 @@ CSS/SASS
 - DO NOT Add a component that you use in exactly one place
 - Place your mixins/variables and non 'code generating' sass in a file under '/partial', prefixed by an underscore
 - Place code which is going to be included in another file, but which *does* generate code under '/includes'
-- Be consistent with spaces/tabs. Use a `Sass Beautifier<https://packagecontrol.io/packages/SassBeautify>`_.
+- Be consistent with spaces/tabs. Use a `Sass Beautifier <https://packagecontrol.io/packages/SassBeautify>`_.
 
 JS
 ^^
 .. warning:: This section is under development. The JS code needs to be modularised more explicilty and we need more clarity around best practice JS. Until then use these guidelines
 
-- Be consistent with spaces/tabs. Use a `JS Beautifier<https://packagecontrol.io/packages/Javascript%20Beautify>`_.
+- Be consistent with spaces/tabs. Use a `JS Beautifier <https://packagecontrol.io/packages/Javascript%20Beautify>`_.
 - Try not to write non procedural/jQuery laden javascript, split your functionality into small packets of functionality using `an appropriate pattern <http://www.adequatelygood.com/JavaScript-Module-Pattern-In-Depth.html>`_. Use object literal notation at the very least.
 - Don't import 3rd party/framework libraries without discussion first, we want to encourage common development patterns through well understood (by our team) libraries.
 
