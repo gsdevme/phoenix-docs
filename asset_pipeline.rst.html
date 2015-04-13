@@ -1,0 +1,34 @@
+.. _phoenix-asset-pipeline:
+
+######################
+Phoenix Asset Pipeline
+######################
+
+This is a guide for how to work with CSS/JS when contributing to the code phoenix framework.
+
+
+
+Theory:
+
+Js Assets
+
+
+'Phoenix wide (framework)' code managed with bower into bower_components. From there gulp should install to
+'AdminBundle/Resources/public' to be loaded by base templates.
+
+Other bundles are responsible for managing their own assets pipeline, but for each Phoenix bundle that includes code for the backend a distinct gulp file should exist. - IS THIS RIGHT? Maybe we can get gulp to process other files by convention?!
+
+
+// tooling - how to install what you need and how to use it
+
+// source maps?
+
+// folder naming conventions and input files - convention over configuration
+css/js
+
+//components?
+
+- Headers with toolbars
+- Boostrap do and don't (mostly dont)
+- Using susy
+- Pagination and datatables

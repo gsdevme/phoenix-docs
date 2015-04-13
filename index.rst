@@ -19,6 +19,11 @@ Bundles
 ~~~~~~~
 :ref:`The Bundle documentation<phoenix-bundles-index>` describes the bundles used in Phoenix.
 
+Asset Pipeline
+~~~~~~~~~~~~~~
+A guide to working with assets within the Phoenix admin area. Assetic has been deprecated from our workflow and all backend components should have assets generated using gulp/bower/npm/libsass. This applies to working with core Phoenix bundles, but also to working with your own bundles which integrate with the core framework. Find out how to do this by reading
+:ref:`The Asset Pipeline documentation<phoenix-asset-pipeline>` 
+
 Contributing
 ~~~~~~~~~~~~
 :ref:`The Roadmap documentation<phoenix-contributing-roadmap>` outline the current state of development, and priorities of the Phoenix team.
