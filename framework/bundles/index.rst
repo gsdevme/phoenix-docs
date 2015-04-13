@@ -18,4 +18,4 @@ The Phoenix Tracking Bundle provides an easy way to add third party javascript a
 
 OrderSecurityReviewBundle
 =========================
-The Phoenix Order Security Review Bundle provides a framework for adding rules which are triggered after an order is placed. These rules can place an order into a 'security review' status in order for the details fo the order to be manually checked by an operator before dispatching the order. :ref:`Read the OrderSecurity Documentation <phoenix-bundle-order-security-review-index>`.
+The Phoenix Order Security Review Bundle provides a framework for adding rules which are triggered after an order is placed. These rules can place an order into a 'security review' status in order for the details fo the order to be manually checked by an operator before dispatching the order. :ref:`Read the OrderSecurityReviewBundle Documentation <phoenix-bundle-order-security-review-index>`.
