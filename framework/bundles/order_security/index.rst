@@ -26,6 +26,10 @@ Execution
 =========
 The security review service is utilized directly after an order has been placed. After order creation rules are evaluated, a decision returned, and then a manual 'security review' flag is set against the order (should the decision be 'fail'). If you need to defer a decision to a later time, you will need to implement this yourself (manually). See the section on implementing :ref:`Deferred security review decisions<phoenix-bundle-order-security-review-deferred>` for ideas on how to accomplish this.
 
+For testing purposes you can execute an order security rule against an order via the command line, this will provide a security result and breakdown of each rule executed:
+
+`phoenix:order:security_rule:result order_reference`
+
 Viewing available rules
 =======================
 You can see all currently registered rules in the application by running the console command 'phoenix:order:security_rule:view_rules'. This allows you to see which rules are available.
