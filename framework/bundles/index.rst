@@ -12,6 +12,10 @@ AccessBundle
 ============
 The Phoenix Access Bundle provides the mechanism which is used to control access to functions within Phoenix. :ref:`Read the AccessBundle Documentation <phoenix-bundle-access-index>`.
 
+GeocodeBundle
+============
+The GeocodeBundle allows for an IP address lookup using a third party library GeoCoder in Phoenix. :ref:`Read the GeocodeBundle Documentation <phoenix-bundle-geocode-index>`.
+
 TrackingBundle
 ==============
 The Phoenix Tracking Bundle provides an easy way to add third party javascript and tracking snippets to instances of Phoenix (also Google Tag Manager). These snippets are configurable and can be enabled on a per instance basis. :ref:`Read the TrackingBundle Documentation <phoenix-bundle-tracking-index>`.
